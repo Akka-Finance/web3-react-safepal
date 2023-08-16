@@ -1,0 +1,38 @@
+{
+    "name": "@akkafinance/safepal-detect-provider",
+    "version": "1.0.0",
+    "description": "A tiny utility for detecting the SafePal Ethereum provider, or any EIP 1193-compliant provider.",
+    "keywords": [
+        "ethereum",
+        "provider",
+        "safepal",
+        "web3",
+        "akkafinance",
+        "akka"
+    ],
+    "author": "chef-plankton <chefplankton2000@gmail.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Akka-Finance/safepal-detect-provider.git"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "files": [
+        "dist/*"
+    ],
+    "type": "commonjs",
+    "types": "./dist/index.d.ts",
+    "main": "./dist/index.js",
+    "exports": "./dist/index.js",
+    "scripts": {
+        "prebuild": "rm -rf dist",
+        "build": "tsc",
+        "start": "tsc --watch"
+    },
+    "bugs": {
+        "url": "https://github.com/Akka-Finance/safepal-detect-provider/issues"
+    },
+    "homepage": "https://github.com/Akka-Finance/safepal-detect-provider#readme"
+}

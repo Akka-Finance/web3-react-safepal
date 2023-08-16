@@ -1,0 +1,1 @@
+# @akkafinance/safepal-detect-provider

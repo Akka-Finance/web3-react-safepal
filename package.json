@@ -1,0 +1,40 @@
+{
+  "name": "@akkafinance/web3-react-safepal",
+  "description": "Add SafePal wallet support into web3-react package",
+  "keywords": [
+    "akkafinance",
+    "web3-react",
+    "safepal",
+    "akka"
+  ],
+  "author": "chef-plankton <chefplankton2000@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akka-Finance/web3-react-safepal.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.0",
+  "files": [
+    "dist/*"
+  ],
+  "type": "commonjs",
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.js",
+  "exports": "./dist/index.js",
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc",
+    "start": "tsc --watch"
+  },
+  "dependencies": {
+    "@akkafinance/safepal-detect-provider": "^1.0.0",
+    "@web3-react/types": "^8.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Akka-Finance/web3-react-safepal/issues"
+  },
+  "homepage": "https://github.com/Akka-Finance/web3-react-safepal#readme"
+}

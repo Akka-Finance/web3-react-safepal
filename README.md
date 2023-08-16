@@ -1,0 +1,1 @@
+# @akkafinance/web3-react-safepal
